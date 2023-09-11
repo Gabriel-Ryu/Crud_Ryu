@@ -1,0 +1,93 @@
+header {
+    background: #BBBBBB;
+    padding: 10px 0;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    height: 100px;
+    margin: 0 auto;
+}
+.titulo{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+nav {
+    position: absolute;
+    top: 110px;
+    
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+    
+.body-container{
+    padding: 10px;
+}
+.table{
+    border:1px solid #000000;
+    width: 100%;
+}
+tr,th{
+    border: 1px solid #000000;
+}
+.input-text{
+    text-align: center;
+}
+.criar-usuario{
+    padding: 10px;
+}
+.novo-nome-usuario{
+    margin: 5px;
+    width: 100%;
+}
+.novo-nome-acesso {
+    margin: 5px;
+    width: 100%;
+}
+.novo-cpf {
+    margin: 5px;
+    width: 100%;
+}
+.novo-situacao-usuario {
+    margin: 5px;
+    width: 100%;
+}
+.btn-insert{
+    margin: 5px;
+}
+.btn-voltar-container {
+    position: relative;
+    left: -90%;
+    top: 50%;
+}
+.voltar {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    background-color: #BBBBBB;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: 0.75s;
+}
